@@ -1,0 +1,256 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    /* common css start */
+    html,
+    body{
+        font-size: 8px;
+    }
+    /* common css end */
+    /* header start */
+    .navigation_wram .nav-item{
+        margin-top: 0.5rem;
+    }
+    .navigation_wram .main-btn{
+        margin: 1rem 0 0 0;
+    }
+    .navigation_wram .navbar-collapse{
+        text-align: center;
+    }
+    /* header end */
+    /* banner start */
+    .banner {
+        padding: 4rem 0 5rem;
+    }
+    .banner h1{
+        font-size: 2.7rem;
+    }
+    /* banner end */
+    /* counter strat */
+    .counter h2{
+        font-size: 3rem;
+    }
+    /* counter end */
+    /* about start */
+    .about h2,
+    .food-type h2{
+        font-size: 3rem;
+    }
+    /* about end */
+    .story{
+        padding: 5rem 0;
+    }
+    .text-content{
+        width: 100%;
+    }
+    .text-content h2 {
+        font-size: 2.8rem;
+    }
+    /* story end */
+    /* testimonial start */
+    .testimonial .card{
+        margin-bottom: 1rem;
+    }
+    .testimonial .carousel-indicators {
+        margin-bottom: 0rem;
+    }
+    .testimonial{
+        padding: 3rem 0 4rem 0;
+    }
+    /* testimonial end */
+    /* book food start */
+    .book-food h2{
+        font-size: 3rem;
+    }
+    /* book food end */
+    /* download app start */
+    .download-app h1{
+        font-size: 4rem;
+    }
+    /* download app end */
+    
+}
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* common css start */
+    html,
+    body{
+        font-size: 9px;
+    }
+    /* common css end */
+    /* header start */
+    .navigation_wram .nav-item{
+        margin-top: 0.5rem;
+    }
+    .navigation_wram .main-btn{
+        margin: 1rem 0 0 0;
+    }
+    .navigation_wram .navbar-collapse{
+        text-align: center;
+    }
+    /* header end */
+    /* banner start */
+    .banner {
+        padding: 7rem 0 5rem;
+    }
+    .banner h1{
+        font-size: 3.1rem;
+    }
+    /* banner end */
+    /* counter strat */
+    .counter h2{
+        font-size: 3.5rem;
+    }
+    /* counter end */
+    /* about start */
+    .about h2,
+    .food-type h2{
+        font-size: 3rem;
+    }
+    /* about end */
+    /* story start */
+    .story{
+        padding: 8rem 0;
+    }
+    .text-content{
+        width: 90%;
+    }
+    .text-content h2 {
+        font-size: 3.5rem;
+    }
+    /* story end */
+    /* testimonial start */
+    .testimonial .card{
+        margin-bottom: 1rem;
+    }
+    .testimonial .carousel-indicators {
+        margin-bottom: 0rem;
+    }
+    .testimonial{
+        padding: 3rem 0 4rem 0;
+    }
+    /* testimonial end */
+    /* download app start */
+    .download-app h1{
+        font-size: 4rem;
+    }
+    /* download app end */
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* header start */
+    .navigation_wram .nav-item{
+        margin-top: 0.5rem;
+    }
+    .navigation_wram .main-btn{
+        margin: 1rem 0 0 0;
+    }
+    .navigation_wram .navbar-collapse{
+        text-align: center;
+    }
+    /* header end */
+    /* banner start */
+    .banner {
+        padding: 8rem 0 5rem;
+    }
+    .banner h1{
+        font-size: 3.8rem;
+    }
+    /* banner end */
+    /* counter strat */
+    .counter h2{
+        font-size: 3.8rem;
+    }
+    /* counter end */
+    /* story start */
+    .story{
+        padding: 11rem 0;
+    }
+    .text-content{
+        width: 80%;
+    }
+    .text-content h2 {
+        font-size: 4rem;
+    }
+    /* story end */
+    /* testimonial start */
+    .testimonial .card{
+        margin-bottom: 1rem;
+    }
+    .testimonial .carousel-indicators {
+        margin-bottom: 0rem;
+    }
+    .testimonial{
+        padding: 3rem 0 4rem 0;
+    }
+    /* testimonial end */
+    /* book food start */
+    .book-food h2{
+        font-size: 3.5rem;
+    }
+    /* book food end */
+    /* download app start */
+    .download-app h1{
+        font-size: 4rem;
+    }
+    /* download app end */
+}
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* banner start */
+    .banner {
+        padding: 12rem 0 10rem;
+    }
+    /* banner end */
+    /* about start */
+    .about h2,
+    .food-type h2{
+        font-size: 3rem;
+    }
+    /* about end */
+    /* story start */
+    .text-content h2{
+        font-size: 3rem;
+    }
+    /* story end */
+    /* explore food start */
+    .explore .card h4{
+        font-size: 1.8rem;
+    }
+    /* explore food end */
+    /* book food start */
+    .book-food h2{
+        font-size: 3.5rem;
+    }
+    .book-food .main-btn{
+        margin-top: 0.6rem;
+    }
+    /* book food end */
+    /* download app start */
+    .download-app h1{
+        font-size: 4rem;
+    }
+    /* download app end */
+}
+
+ /* Extra large devices (large desktops, 1200px and up) */
+ @media (min-width: 1200px) and (max-width: 1399.98px) {
+ 
+}
+
+ /* Extra Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    /* banner start */
+    .banner{
+        padding: 15rem 0 25rem;
+    }
+    /* banner end */
+    /* about start */
+    .about h2,
+    .food-type h2{
+        font-size: 4.5rem;
+    }
+    /* about end */
+}
